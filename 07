@@ -10,4 +10,5 @@ int main() {
  return 0;
 }
 Output:
+Enter n : 10
 Sum = 55
