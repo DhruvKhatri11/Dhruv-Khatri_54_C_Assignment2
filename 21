@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+ int num;
+ printf("Enter a number: ");
+ scanf("%d", &num);
+ printf("Digits: ");
+ while(num > 0) {
+ printf("%d ", num % 10);
+ num /= 10;
+ }
+ printf("\n");
+ return 0;
+}
+Output:
+Enter a number: 351
+Digits: 1 5 3
